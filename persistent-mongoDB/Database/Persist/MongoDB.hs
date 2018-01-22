@@ -74,8 +74,8 @@ module Database.Persist.MongoDB
     , createMongoDBPool
     , runMongoDBPool
     , runMongoDBPoolDef
-    , ConnectionPool
-    , Connection
+    , ConnectionPool(..)
+    , Connection(..)
     , MongoAuth (..)
 
     -- * Connection configuration
